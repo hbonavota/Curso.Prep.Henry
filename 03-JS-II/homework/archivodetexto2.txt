@@ -1,0 +1,36 @@
+// * `for`
+
+    Es una palabra reservada de javascript, un lenguaje de programación, para crear una secuencia que ejecute repetidas veces una instrucción, un trozo de código, hasta que la condición asignada a dicho bucle deje de cumplirse. Su sintaxis en javascript es: 
+    " for ([expresion-inicial]; [condicion]; [expresion-final]) {sentencia}" 
+
+//* `&&`, `||`, `!`
+
+    Los operadores (AND:  &&, OR: || y NOT: !,), son operadores lógicos que generalmente se utilizan con valores booleanos, es decir de tipo lógico binario devolviendo 2 valores booleanos:  true o false. 
+    Los operadores lógicos, también, devuelven el valor de una de las expresiones, si se utilizan con valores no booleanos. Ejemplo:
+
+    AND LÓGICO &&
+     (expresión1 && expresión2).	
+        Cuando se usa con valores booleanos, && devuelve "true" si ambos operandos son "true"; de lo contrario, devuelve false. 
+        (true && true)     // devuelve true
+        (true && false)   // devuelve false
+        
+        Con valores no booleanos devuelve expresión1 si se puede convertir a false; de lo contrario, devuelve la expresión2. 
+        ('Cat' && 'Dog')  // devuelve Dog
+        (false && 'Cat')  // devuelve false 
+
+    OR lógico (||)	
+     expresión1 || expresión2	
+        Cuando se usa con valores booleanos, || devuelve true si alguno de los operandos es true; si ambos son falsos, devuelve false.
+        (true || true)    // devuelve true
+        (false || true)   // devuelve true
+
+        Con valores no booleanos Devuelve expresión1 si se puede convertir a true; de lo contrario, devuelve expresión2.
+        ('Cat' || 'Dog')  // devuelve Cat
+        (false || 'Cat')  // devuelve Cat
+
+    NOT lógico (!)	
+     !expr	
+    Devuelve false si su único operando se puede convertir a true; de lo contrario, devuelve true.
+        (!true)  // devuelve false
+        (!false) // devuelve true
+        (!'Cat') // devuelve false
