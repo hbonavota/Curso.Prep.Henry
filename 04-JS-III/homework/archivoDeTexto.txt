@@ -1,0 +1,2 @@
+* Arrays
+Un array es un vector, es decir una matriz matriz, una zona de almacenamiento contiguo que contiene una serie de elementos de forma correlativa y consecutiva, de modo que para acceder a los mismos lo hacemos mediante un indice, que siempre comienza en la posición 0, luego 1,2,3,4 etc. 
